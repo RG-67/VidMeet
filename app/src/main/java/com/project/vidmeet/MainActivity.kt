@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         return if (binding.edtCode.text.toString().isNotEmpty()) {
             true
         } else {
-            binding.edtCode.error = ""
+            binding.edtCode.error = "Enter code"
             Snackbar.make(view, "Enter code", Snackbar.LENGTH_SHORT).show()
             false
         }
