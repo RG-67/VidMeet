@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VidMeet</string>
+    <string name="meeting_title">Create or join meeting</string>
+</resources>
